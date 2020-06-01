@@ -1,0 +1,5 @@
+newmtl lambert2
+map_Kd -o 0 0 -s 1 1 flo cemiterio.psd
+Kd 1 1 1
+d 1
+
