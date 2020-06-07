@@ -15,8 +15,8 @@ public class IsPushing : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            push.Play();
             playerAnimator.SetBool("isPushing", true);
+            push.Play();
         }
     }
     private void OnCollisionExit(Collision collision)

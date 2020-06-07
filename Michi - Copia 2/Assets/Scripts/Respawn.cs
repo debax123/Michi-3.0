@@ -21,11 +21,11 @@ public class Respawn : MonoBehaviour
 
     private IEnumerator RespawnRoutine()
     {
-        yield return new WaitForSeconds(0.2f);
+        //yield return new WaitForSeconds(0.01f);
         charac.enabled = false;
         Color cor = fade.color;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.1f);
 
         while (cor.a < 1)
         {

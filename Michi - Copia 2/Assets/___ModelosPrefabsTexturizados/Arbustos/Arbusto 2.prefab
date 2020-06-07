@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1979249060668170600}
   - component: {fileID: 1979249060668170603}
   - component: {fileID: 1979249060668170602}
-  - component: {fileID: -2669024913246782887}
   m_Layer: 0
   m_Name: Arbusto 2
   m_TagString: Untagged
@@ -80,17 +79,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &-2669024913246782887
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979249060668170597}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.22471835
-  m_Height: 0.35942414
-  m_Direction: 1
-  m_Center: {x: 0.00000015646219, y: 0.17093654, z: 0.010209054}
