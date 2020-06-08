@@ -55,6 +55,7 @@
      <Compile Include="Assets\Interface\Scripts\CutsceneController.cs" />
      <Compile Include="Assets\Interface\Scripts\MenuController.cs" />
      <Compile Include="Assets\Interface\Scripts\PauseController.cs" />
+     <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\Scripts\BoatPuzlleFinish.cs" />
      <Compile Include="Assets\Scripts\BoatTransfer.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />

@@ -12,10 +12,7 @@ public class SoulsPickUps : MonoBehaviour
     // Start is called before the first frame update
 
 
-    private void Update() 
-    {
-        transform.Rotate(0,0.7f,0.4f);    
-    }
+    
 
     private void OnTriggerEnter(Collider other)
     {
