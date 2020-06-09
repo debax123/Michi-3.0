@@ -107,12 +107,12 @@ public class GameManager : MonoBehaviour
     public void AddFish(int fishToAdd)
     {
         currentFish += fishToAdd;
-        fishText.text = ":" + currentFish;
+        fishText.text = currentFish + "/7";
     }
     public void AddSoul(int soulToAdd)
     {
         currentSouls += soulToAdd;
-        soulsText.text = ":" + currentSouls;
+        soulsText.text = currentSouls + "/7";
     }
 
     public void Resume()
