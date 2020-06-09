@@ -5,9 +5,12 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 using UnityEngine.EventSystems;
+using UnityEngine.Audio;
 
 public class MenuController : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioMixer audioMixer;
     public GameObject controls;
     public GameObject config;
     public GameObject credits;
@@ -137,17 +140,17 @@ public class MenuController : MonoBehaviour
 
     public void ChangeGeneralSoundVOL(float volume)
     {
-
+        audioMixer.SetFloat("sonsGerais", volume);
     }
 
     public void ChangeEffectsSoundsVOL(float volume)
     {
-
+        audioMixer.SetFloat("sonsEfeitos", volume);
     }
 
     public void ChangeMenuSoundVOL(float volume)
     {
-        menuAudioSource.volume = volume;
+        audioMixer.SetFloat("sonsMenu", volume);
     }
 
     public static IEnumerator ChangeScene(string sceneName)
@@ -171,5 +174,12 @@ public class MenuController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         soulsParticleSystem.gameObject.SetActive(false);
+    }
+    public void StopSong()
+    {
+        if(audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
     }
 }

@@ -3,7 +3,22 @@ guid: f3235138254a36840b5c9d4bde237c97
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - audioMixer: {fileID: 24100000, guid: e791724d1ba459243be5df2568e4d94c, type: 2}
+  - controls: {instanceID: 0}
+  - config: {instanceID: 0}
+  - credits: {instanceID: 0}
+  - visual: {instanceID: 0}
+  - popup: {instanceID: 0}
+  - logoGameObj: {instanceID: 0}
+  - buttons: {instanceID: 0}
+  - menuAudioSource: {instanceID: 0}
+  - generalSoundSlider: {instanceID: 0}
+  - menuSoundSlider: {instanceID: 0}
+  - soundEffectsSlider: {instanceID: 0}
+  - soulsParticleSystem: {instanceID: 0}
+  - buttonSoundAudioSource: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
