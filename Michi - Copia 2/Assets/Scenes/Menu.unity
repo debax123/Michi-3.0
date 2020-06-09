@@ -9446,27 +9446,32 @@ PrefabInstance:
     - target: {fileID: 1830809376465899257, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 1830809376465899257, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1830809376465899257, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1830809376465899257, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1830809376465899257, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1830809376465899257, guid: f1728b9aea861a1479fa686ae5f95cbe,
+        type: 3}
+      propertyPath: m_text
+      value: "Viktor Maru V. S. \n20843437\nAnimador 2D\nConcept Art\nIlustrador\n"
       objectReference: {fileID: 0}
     - target: {fileID: 1830809376917198161, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
@@ -9581,27 +9586,43 @@ PrefabInstance:
     - target: {fileID: 1830809377751264303, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 1830809377751264303, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1830809377751264303, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1830809377751264303, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1830809377751264303, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1830809377751264303, guid: f1728b9aea861a1479fa686ae5f95cbe,
+        type: 3}
+      propertyPath: m_text
+      value: 'Camila Naomi
+
+        21076090
+
+        Concept Art
+
+        Diretora
+        de Arte
+
+        Ilustradora
+
+        Tech Artist'
       objectReference: {fileID: 0}
     - target: {fileID: 1830809377910694991, guid: f1728b9aea861a1479fa686ae5f95cbe,
         type: 3}
